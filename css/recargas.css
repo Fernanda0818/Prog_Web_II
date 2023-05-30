@@ -1,0 +1,66 @@
+.infoSup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(157, 0, 16);
+    color: white;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.logoImg {
+    width: 45px;
+}
+
+.recarga{
+    background-color: #efa9068c;
+    margin-top: 4%;
+    margin-left: 23%;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    border-color: black;
+}
+
+.recarga div{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    width: 90%;
+    display: flex;
+}
+.recarga input{
+    width: 100%;
+    margin-left: 2rem;
+    padding-left: 0.5rem;
+}
+.recarga p{
+    width: 12rem;
+    text-align: center;
+}
+#recargar{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 20rem;
+    background-color: rgba(148, 5, 20, 0.699);
+    width: 10rem;
+    height: 2rem;
+}
+#regresar{
+    border-style: groove;
+    border-color: #000000;
+    background-color: rgb(252, 180, 12);
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+#imgRegresar{
+    width: 80px;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}

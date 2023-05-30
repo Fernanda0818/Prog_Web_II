@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+
+
+<body>
+    <form method="POST" id="formLogin" action="validarLogin.php">
+        <div id="contenedor">
+            <div id="contenedorcentrado">
+                <div id="login">
+                    <form id="loginform">
+                        <label for="usuario">Usuario</label>
+                        <input id="usuario" type="text" name="usuario" placeholder="Usuario" required>
+
+                        <label for="password">Contraseña</label>
+                        <input id="password" type="password" placeholder="Contraseña" name="password" required>
+                        <p id="resultado" class="resultado"></p>
+                        <button onclick="login()" type="button" title="Ingresar" name="Ingresar">Login</button>
+                    </form>
+
+                </div>
+                <div id="derecho">
+                    <div class="titulo">
+                        Inicio Sesión
+                    </div>
+                    <hr>
+                    <div class="pie-form">
+                        <a href="#">¿Perdiste tu contraseña?</a>
+                        <a href="Registro.html">¿No tienes Cuenta? Registrate</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="js/scrip.js"></script>
+</body>
+
+
+</html>

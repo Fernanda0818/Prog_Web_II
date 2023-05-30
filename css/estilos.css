@@ -1,0 +1,142 @@
+.infoSup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(157, 0, 16);
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+img{
+    width: 100px;
+    height: 70px;
+    display: flex;
+    
+    padding: .5rem;
+    margin: auto;
+    margin-top: .5rem;
+} 
+
+.logoImg{
+    width: 45px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+#s1 div, #s2 div{
+    width: 200px;
+    height: 150px;
+    border-style: groove;
+    border-color: rgb(211, 211, 211);
+    text-align: center;
+}
+
+#s1, #s2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+#regresar{
+    border-style: groove;
+    border-color: #000000;
+    background-color: rgb(252, 180, 12);
+    margin: 2rem;
+    padding: 0;
+    width: 80px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+#imgRegresar{
+    width: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+#ingresarFecha{
+    margin: 2rem;
+    width: 50%;
+    height: 2rem;
+    padding-left: 1rem;
+}
+
+#divFecha{
+    display: flex;
+}
+
+#buscarDatos{
+    
+    height: 2.5rem;
+    width: 10rem;
+    margin-top: 2rem;
+
+}
+a{
+    text-decoration: none;
+}
+
+#titulo{
+    visibility: visible;
+    color: #00b7c6;
+    text-align: center;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 4rem;
+}
+
+.cont{
+    display: flex;
+}
+
+.promociones{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont div{
+    width: 30%;
+    text-align: center;
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-style: groove;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.promociones div{
+    width: 19%;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    border-style: groove;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.cont img{
+    width: 250px;
+    height: 310px;
+    display: flex;
+    padding: 0.5rem;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+.promociones img{
+    width: 250px;
+    height: 310px;
+    display: flex;
+
+}
+.cont p{
+  padding: 2rem;
+}
+
+h3{
+    font-size: 15px;
+    font-style: italic;
+}
